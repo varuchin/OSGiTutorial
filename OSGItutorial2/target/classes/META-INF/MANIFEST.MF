@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1448974942287
+Build-Jdk: 1.8.0_60
+Built-By: varuchin
+Bundle-Activator: ru.varuchin.consumer.HelloWorldActivator
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGiDmHelloWorldConsumer
+Bundle-SymbolicName: OSGiDmHelloWorldConsumer
+Bundle-Vendor: Baptiste Wicht
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: ru.varuchin.consumer;uses:="com.varuchin.able,org.osgi.f
+ ramework";version="1.0.0"
+Import-Package: com.varuchin.able,javax.swing,org.osgi.framework;version
+ ="[1.5,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Tool: Bnd-3.0.0.201509101326
